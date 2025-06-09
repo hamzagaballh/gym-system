@@ -1,0 +1,796 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* start-landing-page */
+.landing-page{
+    min-height: 100vh;
+    background-image: url(../imgs/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.landing-page1{
+    min-height: 100vh;
+    background-image: url(../imgs/what-is-sports-massage-feat.jpg);
+    background-size: cover;
+    position: relative;
+}
+.landing-page2{
+    min-height: 100vh;
+    background-image: url(../imgs/185-secondary.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.landing-page .overlay{
+    background-color: #00000086;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.landing-page1 .overlay{
+    background-color: #00000086;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.landing-page2 .overlay{
+    background-color: #00000086;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.header-arae{
+    position: relative;
+    /* animation: fade-up 2.5s; */
+    z-index: 2;
+    color: white;
+    display: flex;
+    padding-top: 20px;
+
+}
+.header-arae .logo{
+    width: 440px;
+    padding: 15px;
+    font-weight: bold;
+    padding-left: 80px;
+    font-size: 18px;
+    color: #4bdd22;
+
+}
+
+.header-arae .links{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-left: 0;
+    padding-right:17% ;
+    color: #4bdd22;
+    cursor: pointer;
+
+}
+.header-arae .links li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.header-arae .links li a{
+    text-decoration: none;
+    color: #4bdd22;
+    transition: 1s;
+}
+.header-arae .links li a:hover{
+    color: aqua;
+}
+.header-arae .registration{
+    width: 200px;
+}
+.header-arae .registration button{
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 40px;
+    background-color: rgba(0, 0, 0, 0.495);
+    color: #4bdd22;
+    border: 1px solid rgba(87, 68, 68, 0.495);
+    border-radius: 5px;
+    transition: 1s;
+    
+}
+.header-arae .registration button:hover{
+    background-color: rgba(250, 235, 215, 0.104);
+    color: wheat;
+    cursor: pointer;
+}
+.introdiction-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    color: #4bdd22;
+    text-align: center;
+    /* animation: fade-up 2.5s; */
+}
+.introdiction1-text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+  color: #4bdd22;
+  text-align: center;
+  /* animation: fade-up 2.5s; */
+
+}
+.introdiction-text h1{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.introdiction-text p{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.span1{
+    color: rgb(177 170 138);
+}
+.introdiction-text button{
+    width: 290px;
+    height: 60px;
+    font-size: 21px;
+    background-color: #4bdd22;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    border: 1px solid  #4bdd22;
+    transition: 1s;
+    cursor: pointer;
+}
+.introdiction-text button:hover{
+    background-color: #4bdd2277;
+    border: 1px solid  #4bdd2277;
+    color: aqua;
+
+}
+.Training{
+    width: 100%;
+    background-color: black;
+    border-top: 20px solid #4bdd22;
+    border-bottom: 20px solid #4bdd22;
+    position: relative;
+}
+.Training .title1{
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+    text-align: center;
+}
+.Training .title1 h1{
+    padding-top: 60px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+
+}
+.Training .title1 h4{
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+.title1 span{
+    color: #4bdd22;
+}
+.our-elite{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.our-elite .photo1{
+    width: 50%;
+  
+ 
+}
+.our-elite .photo1 img{
+    width: 100%;
+    height: 800px;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.our-elite .info1{
+    width: 40%;
+    text-align: left;
+}
+.our-elite .info1 h1{
+    margin-top: 200px;
+    font-size: 60px;
+    width: 60%;
+    font-weight: bold;
+    color: #4bdd22;
+    
+}
+.our-elite .info1 p{
+    margin-top: 30px;
+    color: white;
+    width: 90%;
+    font-size: 25px;
+}
+.Training .photo2{
+    width:320px;
+    height: 250px;
+    /* background-color: #4bdd22; */
+    position: absolute;
+    top: 935px;
+    left: 50%;
+    z-index: 22;
+    border: 20px solid black;
+}
+.Training .photo2 img{
+    width: 100%;
+    height: 100%;
+}
+.Training .title2{
+   margin-top: 50px;
+    text-align: center;
+}
+.Training .title2 h3{
+    margin-top: 200px;
+    margin-left: 250px;
+    color: white;
+    width: 70%;
+}
+.Training .photo3{
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 70vh;
+    background-image: url(../imgs/102-background.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 100px rgb(92, 80, 80);
+}
+.Training .photo3 .overlay2{
+    background-color: #00000023;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.Training .photo3 .title3{
+    width: 50%;
+    padding-top: 300px;
+    margin: auto;
+    /* z-index: 31; */
+}
+.Training .photo3 .title3 h1{
+    color: rgb(145, 255, 0);
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 40px;
+}
+.Training .photo3 .title3 p{
+    color: white;
+    font-size: 25px;
+}
+.Training .title4{
+    width: 100%;
+    position: relative;
+}
+.Training .title4 .photo4{
+    width: 50%;
+    height: 100vh;
+
+}
+.Training .title4  h1{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.Training .title4 .photo4 img{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 100%;
+    height: 90%;
+}
+.title4 span{
+    color: #4bdd22;
+}
+.Training .title4 .photos img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+}
+.Training .title4 .photos1 img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 55%;
+    left: 88%;
+    transform: translate(-50%,-50%);
+}
+.Training .title4 .photos2 img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 75%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+}
+.footer1{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+  }
+  .footer1 .info2{
+    width: 50%;
+    height: 100%;
+    /* background-color: #4bdd22; */
+    margin: auto;
+  }
+  .footer1 .info2 img{
+    width: 300px;
+    height: 150px;
+    padding-top: 50px;
+    margin-left: 30%;
+  }
+  .footer1 .info2 p{
+    text-align: center;
+    margin-top: 30px;
+    color:rgb(217, 185, 185);
+  }
+  .footer1 .info2 i{
+    text-align: center;
+    font-size: 30px;
+    margin-right: 35px;
+    color: rgb(217, 185, 185);
+    transition: 1s;
+    cursor: pointer;
+  }
+  .footer1 .info2 i:hover{
+    color: white;
+  }
+  .i1{
+    margin-top: 25px;
+    padding-left: 290px;
+  }
+  footer{
+    width: 100%;
+    height: 8vh;
+    margin: auto;
+    background-color: #022a3a;
+    color: #4bdd22;
+    text-align: center;
+  }
+  footer h6{
+    padding-top: 20px;
+  
+  }
+  footer h6 a{
+    color: #7b8d89;
+    transition: 1s;
+  }
+  footer h6 a:hover{
+    color: black;
+  }
+  .Membership{
+    width: 100%;
+    height: 120vh;
+    background-color: black;
+    /* border-top: 20px solid #4bdd22; */
+    border-bottom: 20px solid #4bdd22;
+    text-align: center;
+  }
+  .Membership h1{
+    padding-top: 50px;
+    color: white;
+    font-size: 50px;
+  }
+  .Membership form{
+    width: 60%;
+    height: 650px;
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid #4bdd22;
+    margin-right: 40px;
+    /* animation: fade-up 4s; */
+    background-color: #4bdd22;
+    border-radius: 40px;
+    margin-left: 20%;
+    
+   
+}
+.b1{
+    margin-top: 80px;
+  }
+.Membership form legend{
+    margin-top: 20px;
+    color: #022a3a;
+    font-weight: bold;
+}
+.Membership form input{
+    width: 80%;
+    text-align:left;
+    margin-left: 82px;
+  
+}
+  .Membership form select{
+    width: 80%;
+    text-align:left;
+    margin-left: -19px;
+    height: 40px;
+    border-radius: 5px;
+    color: gray;
+    border: 1px solid grey;
+  
+  }
+  .b2{
+    width: 80%;
+    text-align:left;
+    margin-left: -19px;
+    height: 40px;
+    border-radius: 5px;
+    color: gray;
+    border: 1px solid grey;
+  }
+.Membership form .select1{
+    width: 30%;
+    text-align:left;
+    margin-left: -19px;
+    height: 40px;
+    border-radius: 5px;
+    color: gray;
+    border: 1px solid grey;
+  
+}
+  
+.Membership form button{
+    width: 300px;
+    height: 40px;
+    background-color: #022a3a;
+    border: 1px solid #022a3a;
+    transition: 1s;
+    margin-top: 15px;
+    /* margin-right: 400px; */
+  }
+  .Membership form button:hover{
+    background-color: gray;
+    color: black;
+}
+.recovrey{
+    width: 100%;
+    height: 770vh;
+    border-top: 20px solid #4bdd22;
+    border-bottom: 20px solid #4bdd22;
+    background-color: black;
+}
+.recovrey .Treatment1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.recovrey .Treatment1 .photo5{
+    width: 55%;
+    height: 110vh;
+
+}
+.recovrey .Treatment1 .photo5 img{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+.recovrey .Treatment1 .title6{
+    width: 30%;
+    text-align: left;
+    
+}
+.recovrey .Treatment1 .title6 h1{
+    margin-top: 200px;
+    color: #4bdd22;
+    margin-left: 10px;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.recovrey .Treatment1 .title6 p{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 22px;
+    color: white;
+}
+.recovrey .Treatment1 .photo70{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    border: 17px solid black;
+    background-color: #022a3a;
+}
+.recovrey .Treatment1 .photo70 img{
+    width: 100%;
+    height: 100%;
+
+}
+.recovrey .Treatment2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 100px;
+}
+.recovrey .Treatment2 .photo71{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 115%;
+    left: 26%;
+    border: 17px solid black;
+    background-color: #022a3a;
+    z-index: 2;
+}
+.recovrey .Treatment2 .photo71 img{
+    width: 100%;
+    height: 100%;
+
+}
+.recovrey .Treatment2 .photo5{
+    width: 55%;
+    height: 110vh;
+
+}
+.recovrey .Treatment2 .photo5 img{
+    width: 100%;
+    height: 100%;
+    margin-top: 300px;
+}
+.recovrey .Treatment2 .title6{
+    width: 30%;
+    text-align: left;
+    
+}
+.recovrey .Treatment2 .title6 h1{
+    margin-top: 300px;
+    color: #4bdd22;
+    margin-left: 10px;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.recovrey .Treatment2 .title6 p{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 22px;
+    color: white;
+}
+.recovrey .Treatment3{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 400px;
+    position: relative;
+    
+}
+.recovrey .Treatment3 .photo5{
+    width: 55%;
+    height: 110vh;
+
+}
+.recovrey .Treatment3 .photo5 img{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+.recovrey .Treatment3 .title6{
+    width: 30%;
+    text-align: left;
+    
+}
+.recovrey .Treatment3 .title6 h1{
+    margin-top: 130px;
+    color: #4bdd22;
+    margin-left: 10px;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.recovrey .Treatment3 .title6 p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+.recovrey .Treatment3 .photo73{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    border: 17px solid black;
+    background-color: #022a3a;
+}
+.recovrey .Treatment3 .photo73 img{
+    width: 100%;
+    height: 100%;
+
+}
+.recovrey .Treatment4{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    position: relative;
+}
+.recovrey .Treatment4 .photo74{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 108%;
+    left: 26%;
+    border: 17px solid black;
+    background-color: #022a3a;
+    z-index: 33;
+}
+.recovrey .Treatment4 .photo74 img{
+    width: 100%;
+    height: 100%;
+
+}
+.recovrey .Treatment4 .photo5{
+    width: 55%;
+    height: 130vh;
+
+}
+.recovrey .Treatment4 .photo5 img{
+    width: 100%;
+    height: 100%;
+    margin-top: 300px;
+}
+.recovrey .Treatment4 .title6{
+    width: 30%;
+    text-align: left;
+    
+}
+.recovrey .Treatment4 .title6 h1{
+    margin-top: 400px;
+    color: #4bdd22;
+    margin-left: 10px;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.recovrey .Treatment4 .title6 p{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 22px;
+    color: white;
+}
+.recovrey .Treatment5{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 400px;
+    position: relative;
+}
+.recovrey .Treatment5 .photo5{
+    width: 55%;
+    height: 110vh;
+
+}
+.recovrey .Treatment5 .photo5 img{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+.recovrey .Treatment5 .title6{
+    width: 30%;
+    text-align: left;
+    
+}
+.recovrey .Treatment5 .title6 h1{
+    margin-top: 130px;
+    color: #4bdd22;
+    margin-left: 10px;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.recovrey .Treatment5 .title6 p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+.recovrey .Treatment5 .photo75{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    border: 17px solid black;
+    background-color: #022a3a;
+}
+.recovrey .Treatment5 .photo75 img{
+    width: 100%;
+    height: 100%;
+
+}
+.Our-classes{
+    width: 100%;
+    height: 230vh;
+    background-color: black;
+    border-top: 20px solid #4bdd22;
+    border-bottom: 20px solid #4bdd22;
+}
+.Our-classes .classe1{
+    width: 100%;
+    height: 50vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #022a3a; */
+
+    
+}
+.Our-classes .classe1 .card1{
+    width: 28%;
+    height: 90%;
+    background-color: white;
+    text-align: center;
+    
+}
+.Our-classes .classe1 .card1 img{
+    width: 100%;
+    height: 80%;
+}
+.Our-classes .classe1 .card1 h2{
+    margin-top: 15px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Abril Fatface', serif;
+    letter-spacing: 2px;
+
+}
+.Our-classes button{
+    width: 170px;
+    height: 50px;
+    background-color: #4bdd22;
+    border: 1px solid #4bdd22;
+    border-radius: 10px;
+    margin-left: 44%;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 1s;
+    
+}
+.Our-classes button:hover{
+    background-color: white;
+    color: black;
+}
